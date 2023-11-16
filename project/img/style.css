@@ -1,0 +1,33 @@
+
+.main{
+    display: flex;
+}
+
+.main2{
+    border: 2px solid red;
+}
+
+.about{
+    margin: 50px;
+    position: relative;
+}
+
+.dots{
+    position: absolute;
+    bottom: -28px;
+    left: -29px;
+    z-index: -1;
+}
+
+.arrow{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: yellow;
+    padding: 16px;
+    border-top-left-radius: 22px;
+}
+
+.arrow i{
+    font-size: 42px;
+}
